@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.timer-container {
+  height: 100px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.timer {
+  font-size: 80px;
+  text-align: center;
+}
+
+button {
+  width: 19.7%;
+}
+
+button {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  border: 2px solid #000;
+  padding: 10px 20px;
+  border-radius: 8px;
+  padding: 50px;
+}
