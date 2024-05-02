@@ -5,12 +5,12 @@ document.addEventListener("DOMContentLoaded", function () {
   let countList = document.getElementById("count_list");
 
   function startTimer() {
-    if (!timerInterval) {
-      timerInterval = setInterval(() => {
-        count++;
-        timerDisplay.textContent = count;
-      }, 1000);
-    }
+    if (timerInterval) return;
+
+    timerInterval = setInterval(() => {
+      count++;
+      timerDisplay.textContent = count;
+    }, 1000);
   }
 
   function pauseTimer() {
