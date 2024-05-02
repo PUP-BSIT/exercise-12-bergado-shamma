@@ -2,4 +2,4 @@
 
 
 
-NETLIFY LINK - 
+NETLIFY LINK - https://ex-12-bergado.netlify.app/timer.html
